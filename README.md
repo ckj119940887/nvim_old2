@@ -1,1 +1,1 @@
-# nvim2
+# nvim
