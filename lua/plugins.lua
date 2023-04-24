@@ -114,4 +114,14 @@ return require("packer").startup(function(use)
   -- vimspector
   use("puremourning/vimspector")
 
+  --dap
+  use("mfussenegger/nvim-dap")
+  use("theHamsta/nvim-dap-virtual-text")
+  use("rcarriga/nvim-dap-ui")
+
+  -- scala
+  use({'scalameta/nvim-metals', requires = { "nvim-lua/plenary.nvim" }})
+
+  use("j-hui/fidget.nvim")
+
 end)

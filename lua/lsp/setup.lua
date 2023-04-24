@@ -11,6 +11,7 @@ local lspconfig = require("lspconfig")
 -- https://github.com/williamboman/nvim-lsp-installer#available-lsps
 local servers = {
   clangd = require("lsp.config.clangd"),
+  metals = require("lsp.config.metals"),
 }
 
 for name, config in pairs(servers) do
